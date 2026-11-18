@@ -32,6 +32,6 @@ class MultiTapCodecTest {
     fun abbreviatesLongCodes() {
         val short = MultiTapCodec.abbreviate("44 666 555 2 / 6 88 66 3 666", 10)
         assertTrue(short.endsWith("…"))
-        assertEquals(4, MultiTapCodec.tapCount("44 2"))
+        assertEquals(3, MultiTapCodec.tapCount("44 2"))
     }
 }
