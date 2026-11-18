@@ -1,4 +1,0 @@
-<resources>
-    <string name="app_name">Nokia Multi-Tap</string>
-    <string name="accessibility_description">Detecta cambios de texto en campos compatibles para generar códigos Multi-Tap localmente y mostrar un panel flotante. No guarda ni transmite el texto.</string>
-</resources>
